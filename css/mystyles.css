@@ -1,8 +1,5 @@
 body {
-  background-image: url("../img/bamboo_forest_by_welshdragon.jpg");
-  background-size: 150%;
-  background-position: top;
-
+  background-color: black;
   color: lightgray;
   text-align: center;
   font-size: 16pt;
@@ -13,16 +10,27 @@ img {
 }
 
 li {
+  font-weight: bold;
   text-align: left;
 }
 
+a {
+  color: white;
+}
+
 .leftbar {
+  background-image: url("../img/bamboo_forest_by_welshdragon.jpg");
+  background-size: 200%;
   width: 50%;
   float: left;
   border: 2px solid gray;
+
 }
 
 .rightbar {
+  background-image: url("../img/bamboo_forest_by_welshdragon.jpg");
+  background-size: 150%;
+  background-position: top;
   float: right;
   height: 100%;
   width: 50%;
