@@ -21,7 +21,7 @@ li {
   height: 75vh;
   margin: 5%;
   border: 2px solid gray;
-  overflow-y: auto;
+  overflow: auto;
 
 }
 
@@ -33,4 +33,10 @@ li {
 #rightbar {
   float: right;
   font-size: 16pt;
+}
+
+@media screen and (max-height: 1000px) {
+  .container {
+    height: 50vh;
+  }
 }
