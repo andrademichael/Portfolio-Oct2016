@@ -4,9 +4,31 @@ body {
   background-position: top;
 
   color: lightgray;
+  text-align: center;
+  font-size: 16pt;
 }
 
 img {
-  float: right;
+  width: 45%;
+}
+
+li {
+  text-align: left;
+}
+
+.leftbar {
   width: 50%;
+  float: left;
+  border: 2px solid gray;
+}
+
+.rightbar {
+  float: right;
+  height: 100%;
+  width: 50%;
+  border: 2px solid gray;
+}
+
+.interests {
+  color: lightblue;
 }
